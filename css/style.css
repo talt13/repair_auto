@@ -145,7 +145,7 @@ input, select, button { outline: none }
 }
 .repair-car__btn{
     align-self: center;
-    margin-top: 40px auto 0;
+    margin: 40px auto 55px;
     height: 60px;
     width: 400px;
     font-size: 24px ;
@@ -156,7 +156,6 @@ input, select, button { outline: none }
     cursor: pointer;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     transition: .3s;
-    margin-bottom: 55px;
 }
 .repair-car__btn:hover{
     border: 1px solid #7196B8;
