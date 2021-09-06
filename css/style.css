@@ -403,6 +403,7 @@ input, select, button { outline: none }
     column-gap: 30px;
     row-gap: 20px;
 }
+
 .our__services-item{
     text-align: center;
     border: 1px solid #7196B8;
@@ -420,11 +421,9 @@ input, select, button { outline: none }
     border-top: 3px solid #456f90;
     padding-top: 50px;
     margin: 250px auto 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .wrapper__keises-item{
     border: 1px solid #456f90;
@@ -435,6 +434,7 @@ input, select, button { outline: none }
     justify-content: center;
     transition: .3s;
     cursor: pointer;
+    margin: 30px;
 }
 .wrapper__keises-item:hover{
     transform: scale(1.2);
@@ -551,6 +551,7 @@ input, select, button { outline: none }
 }
 .questions_section{
     display: flex;
+    margin-bottom: 40px;
 }
 
 .questions_question,.questions_answer{
