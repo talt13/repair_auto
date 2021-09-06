@@ -93,6 +93,23 @@ $('.stages-slider').slick({
          }, function() {
             $('.sevenA').removeClass('hovered');
          });
+
+
+
+
+         $('.btn').click(function(){
+             $('#popup__container').fadeIn();
+        });
+     
+         $('#popup__container').click(function(event){
+             if(event.target == this) {
+                 $(this).fadeOut();
+             }
+         });
+         $('.close-btn').click(function(){
+            $('#popup__container').fadeOut();
+       });
+     
 tabs();
 tabsMulti();
  
