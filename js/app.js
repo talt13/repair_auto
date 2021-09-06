@@ -108,7 +108,7 @@ $('.stages-slider').slick({
          });
          $('.close-btn').click(function(){
             $('#popup__container').fadeOut();
-       });
+         });
      
 tabs();
 tabsMulti();
